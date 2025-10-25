@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test Codex Projects</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+
+      header {
+        background: #1a202c;
+        color: #fff;
+        padding: 1.5rem;
+      }
+
+      main {
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 2rem 1.5rem;
+      }
+
+      nav h2 {
+        margin-top: 0;
+      }
+
+      .classified-projects {
+        list-style: none;
+        padding: 0;
+      }
+
+      .classified-projects li {
+        margin-bottom: 0.75rem;
+        background: #fff;
+        border-radius: 0.5rem;
+        padding: 0.75rem 1rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .classified-projects a {
+        text-decoration: none;
+        color: #1a202c;
+        font-weight: 600;
+      }
+
+      .classified-projects a:hover,
+      .classified-projects a:focus {
+        text-decoration: underline;
+      }
+
+      .classified-projects span.description {
+        display: block;
+        font-size: 0.875rem;
+        color: #4a5568;
+        margin-top: 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Test Codex Project Navigator</h1>
+      <p>Browse the classified projects maintained in this repository.</p>
+    </header>
+    <main>
+      <nav aria-labelledby="classified-projects">
+        <h2 id="classified-projects">Classified Projects</h2>
+        <!-- PROJECT_NAV_START -->
+        <ul class="classified-projects">
+          <li>
+            <a href="projects/example-project/index.html" title="A placeholder project used to demonstrate the homepage updater.">Example Project</a>
+            <span class="description">A placeholder project used to demonstrate the homepage updater.</span>
+          </li>
+        </ul>
+        <!-- PROJECT_NAV_END -->
+      </nav>
+    </main>
+  </body>
+</html>
